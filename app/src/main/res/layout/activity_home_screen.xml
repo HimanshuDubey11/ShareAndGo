@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    tools:context=".HomeScreen">
+
+    <ScrollView
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:layout_centerHorizontal="true"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:src="@drawable/homeimage1"
+                android:id="@+id/homeimage1"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="SHARE PAD"
+                android:layout_below="@id/homeimage1"
+                android:id="@+id/homebutton1"
+                android:textSize="18sp"
+                android:padding="2dp"
+                android:textStyle="normal|bold"
+                android:background="@drawable/button_background"
+                android:fontFamily="monospace"
+                android:layout_marginTop="16dp"
+                android:layout_centerHorizontal="true"/>
+
+            <ImageView
+                android:scaleType="centerCrop"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:src="@drawable/homeimage2"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/homebutton1"
+                android:id="@+id/homeimage2"
+                android:layout_marginTop="60dp"/>
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="SHARE SCREEN"
+                android:id="@+id/homebutton2"
+                android:layout_below="@id/homeimage2"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/button_background"
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:fontFamily="monospace"
+                android:padding="2dp"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

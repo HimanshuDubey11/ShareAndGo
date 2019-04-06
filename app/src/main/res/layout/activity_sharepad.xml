@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screens.Sharepad">
+
+    <View
+        android:layout_alignParentLeft="true"
+        android:id="@+id/borderleft"
+        android:layout_width="16dp"
+        android:layout_height="match_parent"/>
+
+    <View
+        android:layout_below="@id/savelayout"
+        android:id="@+id/bordertop"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"/>
+
+    <View
+        android:layout_alignParentBottom="true"
+        android:id="@+id/borderbottom"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"/>
+
+    <View
+        android:id="@+id/borderright"
+        android:layout_alignParentRight="true"
+        android:layout_width="16dp"
+        android:layout_height="match_parent"/>
+
+    <RelativeLayout
+        android:textColor="#363636"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@id/bordertop"
+        android:background="#EEEEEE"
+        android:padding="8dp"
+        android:layout_above="@id/borderbottom"
+        android:layout_toRightOf="@id/borderleft"
+        android:layout_toLeftOf="@id/borderright"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:textColor="#363636"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@id/bordertop"
+        android:textAlignment="textStart"
+        android:background="#EEEEEE"
+        android:padding="8dp"
+        android:layout_toRightOf="@id/borderleft"
+        android:layout_toLeftOf="@id/borderright"
+        android:id="@+id/sharepadedittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_marginTop="16dp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/savelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_centerVertical="true"
+            android:paddingLeft="8dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:background="#CCCACA"
+            android:id="@+id/title"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="32dp"
+            android:layout_toLeftOf="@id/addfromimage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:textSize="12sp"
+            android:layout_alignParentRight="true"
+            android:id="@+id/savebutton"
+            android:background="#8BC34A"
+            android:text="Save"
+            android:layout_width="50dp"
+            android:layout_height="40dp" />
+
+        <Button
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/savebutton"
+            android:layout_marginRight="12dp"
+            android:id="@+id/addfromimage"
+            android:background="#8BC34A"
+            android:text="Scan Image"
+            android:textSize="12dp"
+            android:layout_width="80dp"
+            android:layout_height="40dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

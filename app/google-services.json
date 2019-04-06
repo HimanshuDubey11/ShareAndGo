@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "326163448623",
+    "firebase_url": "https://shareandgo-d7702.firebaseio.com",
+    "project_id": "shareandgo-d7702",
+    "storage_bucket": "shareandgo-d7702.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326163448623:android:b08966dddfc04b81",
+        "android_client_info": {
+          "package_name": "com.horcrux.shareandgo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "326163448623-40olkhcc8jro9qv19ddiu2bbjjgrulkk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.horcrux.shareandgo",
+            "certificate_hash": "874a975c8901e150d1b089ed174197ed80e0a097"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDy-tgiNCJT48LZqiR_NZzmrwy_0VC9q9w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "326163448623-96houoalef63u7ck2ipoh4nrsqnh9qnl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
